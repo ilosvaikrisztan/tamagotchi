@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-image: url('./pics/hatter01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /*color: rgba(255, 255, 255, 0.867) 0D;*/
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+.container nav{
+    height: 50px;
+    background-color: hsla(0, 0%, 0%, 0.200);
+}
+
+nav button{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+nav button:hover{
+    background-color: rgba(255, 255, 255, 0);  
+    font-weight: bold;
+	color: red;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.page{
+    min-height: calc(100vh - 100px);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+#profile_page{
+    background-color: rgba(255, 255, 255, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#adventure_page{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+#profile_pics{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+	
+}
+
+#adventure_page button{
+    
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#adventure_page button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color:aliceblue;
+    font-weight: bold;
+    
+}
+.addButtons button{
+    border-radius: 20px;
+}
+.addButtons button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color:aliceblue;
+    font-weight: bold;
+}
+
